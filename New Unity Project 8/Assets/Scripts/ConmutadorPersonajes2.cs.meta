@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 864207634cc1b7640bd9ab7c1c0d0405
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dinosaurio: {instanceID: 0}
+  - camara: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
