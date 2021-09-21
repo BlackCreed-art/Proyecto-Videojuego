@@ -15789,7 +15789,7 @@ GameObject:
   - component: {fileID: 533945949}
   - component: {fileID: 533945948}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Arbol de manzana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27524,7 +27524,7 @@ GameObject:
   - component: {fileID: 1283381063}
   - component: {fileID: 1283381062}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Zona de dialogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27673,7 +27673,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1283381061
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28586,7 +28586,7 @@ GameObject:
   - component: {fileID: 1409392070}
   - component: {fileID: 1409392069}
   m_Layer: 0
-  m_Name: Cylinder (2)
+  m_Name: Aldeano
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29379,7 +29379,7 @@ GameObject:
   - component: {fileID: 1453379495}
   - component: {fileID: 1453379494}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: "Le\xF1ador"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32015,11 +32015,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4397366826646345546, guid: dc554b9ca3a884d47946081ba6ec93c2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000004284366
+      value: 0.0000000042843666
       objectReference: {fileID: 0}
     - target: {fileID: 4397366826646345546, guid: dc554b9ca3a884d47946081ba6ec93c2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 3.8461034e-10
+      value: -3.8461037e-10
       objectReference: {fileID: 0}
     - target: {fileID: 6391826598231645470, guid: dc554b9ca3a884d47946081ba6ec93c2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32810,7 +32810,7 @@ GameObject:
   - component: {fileID: 1858156042}
   - component: {fileID: 1858156052}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: Pozo de agua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
