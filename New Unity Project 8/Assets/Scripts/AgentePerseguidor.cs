@@ -7,10 +7,17 @@ public class AgentePerseguidor : MonoBehaviour
 {
     public NavMeshAgent agente;
     public Transform objetivo;
+    private bool active = false;
+    
+    public void Activar(){
+        active = true;
+    }
 
     void Update()
     {
-        agente.SetDestination(objetivo.position);
+        if(active){
+            agente.SetDestination(objetivo.position);
+        }
     }
     
 }

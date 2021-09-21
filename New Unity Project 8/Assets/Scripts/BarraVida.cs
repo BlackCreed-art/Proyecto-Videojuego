@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BarraVida : MonoBehaviour
 {
@@ -33,6 +34,15 @@ public class BarraVida : MonoBehaviour
     {
         vidaActual -= danio;
         Mathf.Clamp(vidaActual,0, 1);
+        Debug.Log("RecibirDanio " + vidaActual);
+        if(vidaActual<=0 && (gameObject.name=="Chica" || gameObject.name=="ChicaDinosaurio")){
+            SceneManager.LoadScene("Perder");
+        }
+
+        if(vidaActual<=0 && gameObject.name=="Enemigo"){
+            Destroy(gameObject);
+            Debug.Log("enemigo deberia morir maldicion");
+        }
     }
 
     public void Recuperar()

@@ -24,7 +24,7 @@ public class Golpear : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("ontriggerenter "+other);
+        Debug.Log("ontriggerenter "+other);
         other.SendMessage("RecibirDanio", danio, SendMessageOptions.DontRequireReceiver);
     }
 }
