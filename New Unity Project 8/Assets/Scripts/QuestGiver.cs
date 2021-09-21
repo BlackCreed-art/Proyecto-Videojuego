@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class QuestGiver : MonoBehaviour
 {
-   public Quest quest;
+   //public Quest quest;
 
-   public Player player;
+   //public Player player;
 
 }

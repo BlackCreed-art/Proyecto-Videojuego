@@ -1,0 +1,266 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 16321 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\unity\2019.4.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Proyecto-Videojuego/fungus
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55472
+Successfully changed project path to: D:/Proyecto-Videojuego/fungus
+D:/Proyecto-Videojuego/fungus
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/unity/2019.4.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Proyecto-Videojuego/fungus/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'D:/unity/2019.4.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2019.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2019.4.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2019.4.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001174 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000813 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.3 MB.
+System memory in use after: 79.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 1.604200 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.080300 ms MarkObjects: 1.253900 ms  DeleteObjects: 0.074200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/FungusExamples
+  artifactKey: Guid(8a377917380804e64ac98abb2ce7ef57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples using Guid(8a377917380804e64ac98abb2ce7ef57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df09322b28fa4fe9375d0ec0479a8279') in 0.048928 seconds
+  Import took 0.073294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(75edc9dc2690e14458f27ef33a9f6e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(75edc9dc2690e14458f27ef33a9f6e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6a15eda4afa52deeabb4fd9fc8a0a2') in 0.001398 seconds
+  Import took 0.004936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088515 seconds.
+  path: Assets/FungusExamples/FungusExamples.asmdef
+  artifactKey: Guid(d749be870df4c4048a9636146e66f475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FungusExamples.asmdef using Guid(d749be870df4c4048a9636146e66f475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ea41fa02e9ae8d6e0fecccd95d65f9') in 0.059111 seconds
+  Import took 0.061721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.509435 seconds.
+  path: Assets/FungusExamples/FirstPerson
+  artifactKey: Guid(4fe4a29c877ab7c49a0e3e5715c62819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson using Guid(4fe4a29c877ab7c49a0e3e5715c62819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7955d6ba5100400412b19c0093236c') in 0.027454 seconds
+  Import took 0.030035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.226317 seconds.
+  path: Assets/FungusExamples/FirstPerson/FirstPersonDemo.unity
+  artifactKey: Guid(f52a982060cbf1342bcd0c3da0aa9083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/FirstPersonDemo.unity using Guid(f52a982060cbf1342bcd0c3da0aa9083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbb326da8b6262ea05f22e0b4b2b492') in 0.008202 seconds
+  Import took 0.030413 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1852 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.4 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 1.681400 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.067700 ms MarkObjects: 1.385800 ms  DeleteObjects: 0.054600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 575.165756 seconds.
+  path: Assets/FungusExamples/FirstPerson/Scripts
+  artifactKey: Guid(4969a2c16bc4cd741806b17be3aa1f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Scripts using Guid(4969a2c16bc4cd741806b17be3aa1f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906b2e92cae9989ff0903668d9c2acbc') in 0.026768 seconds
+  Import took 0.059697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.130039 seconds.
+  path: Assets/FungusExamples/FirstPerson/Scripts/FPDemoPriorityRouter.cs
+  artifactKey: Guid(61164b02bb636b446829910aecba0d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Scripts/FPDemoPriorityRouter.cs using Guid(61164b02bb636b446829910aecba0d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422d4baec2105e3ba9592e611a6e6a48') in 0.155183 seconds
+  Import took 0.179651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256106 seconds.
+  path: Assets/FungusExamples/FirstPerson/Scripts/LookingAtDoor.cs
+  artifactKey: Guid(db36b7852b6f9b54e8d797861d0c5560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Scripts/LookingAtDoor.cs using Guid(db36b7852b6f9b54e8d797861d0c5560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1534917a1186db904f39aa38e8e7fee') in 0.001385 seconds
+  Import took 0.079041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.528909 seconds.
+  path: Assets/FungusExamples/FirstPerson/Scripts/SimpleForceMovement.cs
+  artifactKey: Guid(f441f30d2f294c6478058317e664dd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Scripts/SimpleForceMovement.cs using Guid(f441f30d2f294c6478058317e664dd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce22378cd0b352724c04ceacf0112bc') in 0.039367 seconds
+  Import took 0.081834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.150457 seconds.
+  path: Assets/FungusExamples/FirstPerson/Scripts/SimpleMouseLook.cs
+  artifactKey: Guid(2839cf60f00c7c847aa6424a50e58ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Scripts/SimpleMouseLook.cs using Guid(2839cf60f00c7c847aa6424a50e58ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c666a2ff01eb64c45e01f4771038d0') in 0.001377 seconds
+  Import took 0.021056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.474522 seconds.
+  path: Assets/FungusExamples/FirstPerson/Prefabs/Button.prefab
+  artifactKey: Guid(ce35e97bd56b1944d8592fa0e400a240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Prefabs/Button.prefab using Guid(ce35e97bd56b1944d8592fa0e400a240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41745c2a6b7d973ad6e12408ae0b9c1') in 0.358261 seconds
+  Import took 0.380665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/FungusExamples/FirstPerson/Prefabs/Lock.prefab
+  artifactKey: Guid(35bb61afc1f4fe74d9e3be3be019faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Prefabs/Lock.prefab using Guid(35bb61afc1f4fe74d9e3be3be019faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd49b4b0e52520db27384abe8cb1409') in 0.042273 seconds
+  Import took 0.044997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/FungusExamples/FirstPerson/Prefabs/Key.prefab
+  artifactKey: Guid(b376fcef73a1f7c4dabdb17903073600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Prefabs/Key.prefab using Guid(b376fcef73a1f7c4dabdb17903073600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7e69026bb7141c503d1321d019820f') in 0.007007 seconds
+  Import took 0.040815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/FungusExamples/FirstPerson/Prefabs/Door.prefab
+  artifactKey: Guid(929d45c4d9c08874ba1eaf9ba09de51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Prefabs/Door.prefab using Guid(929d45c4d9c08874ba1eaf9ba09de51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe53953ef34320719fdbadd66a530631') in 0.011081 seconds
+  Import took 0.076363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.191773 seconds.
+  path: Assets/FungusExamples/FirstPerson/Prefabs
+  artifactKey: Guid(36f9c1e443bda3d45bc8feba51b1d53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Prefabs using Guid(36f9c1e443bda3d45bc8feba51b1d53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eded5a0a29200610f96215727f83aa') in 0.001391 seconds
+  Import took 0.018544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.437238 seconds.
+  path: Assets/FungusExamples/FirstPerson/Scripts/ForceCursorVisible.cs
+  artifactKey: Guid(b3722e1f0899f9a4491b40f430890fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FirstPerson/Scripts/ForceCursorVisible.cs using Guid(b3722e1f0899f9a4491b40f430890fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc82d8476980948d3780c07660c1faa7') in 0.001448 seconds
+  Import took 0.048530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2570.075730 seconds.
+  path: Assets/FungusExamples/FungusTown
+  artifactKey: Guid(d670b444343854bba87f444126210609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FungusTown using Guid(d670b444343854bba87f444126210609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfe7f991eec4561f8e3652d68ff692f') in 0.013218 seconds
+  Import took 0.076210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.425774 seconds.
+  path: Assets/FungusExamples/FungusLua
+  artifactKey: Guid(8ab8afbfde36d4bc4ac6615dba9b64f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FungusLua using Guid(8ab8afbfde36d4bc4ac6615dba9b64f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdeab0eb38ad031ae497443e5a265299') in 0.002513 seconds
+  Import took 0.091479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.356040 seconds.
+  path: Assets/FungusExamples/EnterName
+  artifactKey: Guid(bf77d69aa529b45a5a9081387e827d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/EnterName using Guid(bf77d69aa529b45a5a9081387e827d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837f1a0a6da13555ae741a8227244bf8') in 0.015239 seconds
+  Import took 0.039345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.632455 seconds.
+  path: Assets/FungusExamples/DragAndDrop
+  artifactKey: Guid(31b842588cd274091a8c7e3c0a5d5297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/DragAndDrop using Guid(31b842588cd274091a8c7e3c0a5d5297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72eaf4a8fc976472182f531a6d4c1a57') in 0.023526 seconds
+  Import took 0.077265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.282246 seconds.
+  path: Assets/FungusExamples/Conversation
+  artifactKey: Guid(a55fed38b03324b71a6d4e76a3dbb69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Conversation using Guid(a55fed38b03324b71a6d4e76a3dbb69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd21a3f9886c94c150193dc2f35b0bab') in 0.013682 seconds
+  Import took 0.035792 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
